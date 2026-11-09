@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#222;background:#fff}h1{font-size:1.6em}code{background:#f2f2f2;padding:2px 6px;border-radius:4px;word-break:break-all}button{font-size:1em;padding:8px 16px;margin-top:8px;cursor:pointer}</style><title>StreamClipper Login</title></head><body>
+<h1>Almost done</h1>
+<p>Copy this whole address and paste it into the StreamClipper terminal:</p>
+<p><code id="u"></code></p>
+<button onclick="navigator.clipboard.writeText(location.href).then(()=>this.textContent='Copied!')">Copy</button>
+<script>document.getElementById('u').textContent = location.href;</script>
+</body></html>
